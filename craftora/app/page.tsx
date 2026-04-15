@@ -33,7 +33,7 @@ export default function Home() {
         <header className="sticky top-0 z-40 bg-black/20 backdrop-blur-sm">
           <nav className="mx-auto flex h-20 w-full max-w-7xl items-center justify-between px-6 lg:px-12">
             <a href="#hero" className="flex items-center">
-              <Image src="/logos/lo.png" alt="Craftora logo" width={75} height={26} priority />
+              <Image src="/logos/lo.png" alt="Craftora logo" width={70} height={30} priority />
             </a>
             <ul className="flex items-center gap-6 text-sm font-semibold uppercase tracking-[0.15em] text-white md:gap-10">
               <li>
@@ -125,7 +125,7 @@ export default function Home() {
         transition={{ duration: 0.85, ease: "easeOut" }}
       >
         <div className="mx-auto w-full max-w-7xl px-6 lg:px-12">
-          <h2 className="text-center font-brandFont text-3xl sm:text-4xl" style={{ color: "#603300" }}>
+          <h2 className="text-center font-brandFont text-3xl font-bold sm:text-4xl" style={{ color: "#603300" }}>
             Showcase
           </h2>
           <p className="mx-auto mt-4 max-w-2xl text-center font-bodyFont text-[#886043]">
