@@ -32,7 +32,7 @@ export default function Home() {
         {/* Sticky navbar on hero */}
         <header className="sticky top-0 z-40 bg-black/20 backdrop-blur-sm">
           <nav className="mx-auto flex h-20 w-full max-w-7xl items-center justify-between px-6 lg:px-12">
-            <a href="#hero" className="flex items-center">
+            <a href="#hero" className="flex items-center mr-4">
               <Image src="/logos/lo.png" alt="Craftora logo" width={70} height={30} priority />
             </a>
             <ul className="flex items-center gap-6 text-sm font-semibold uppercase tracking-[0.15em] text-white md:gap-10">
@@ -185,7 +185,7 @@ export default function Home() {
                 className="h-9 w-9 brightness-0 saturate-100 invert-[74%] sepia-[54%] saturate-[474%] hue-rotate-[1deg] brightness-[90%] contrast-[88%]"
               />
             </a>
-            <a href="#" aria-label="Instagram" className="transition-transform hover:-translate-y-1">
+            <a href="https://www.instagram.com/craftoraofficial5?igsh=MTRtdHI5bGt1eWVveg==" aria-label="Instagram" className="transition-transform hover:-translate-y-1">
               <Image
                 src="/icons/instagram.svg"
                 alt="Instagram"
@@ -198,6 +198,15 @@ export default function Home() {
               <Image
                 src="/icons/facebook.svg"
                 alt="Facebook"
+                width={34}
+                height={34}
+                className="h-9 w-9 brightness-0 saturate-100 invert-[74%] sepia-[54%] saturate-[474%] hue-rotate-[1deg] brightness-[90%] contrast-[88%]"
+              />
+            </a>
+            <a href="https://www.tiktok.com/@craftora5?_r=1&_t=ZS-95ZFtUUWTHM" aria-label="Tiktok" className="transition-transform hover:-translate-y-1">
+              <Image
+                src="/icons/tiktok.svg"
+                alt="Tiktok"
                 width={34}
                 height={34}
                 className="h-9 w-9 brightness-0 saturate-100 invert-[74%] sepia-[54%] saturate-[474%] hue-rotate-[1deg] brightness-[90%] contrast-[88%]"
